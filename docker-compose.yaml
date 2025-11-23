@@ -2,7 +2,7 @@ services:
   backend:
     build: .
     ports:
-      - "8002:8000"
+      - "8003:8000"
     command: poetry run python manage.py runserver
     volumes:
       - .:/online_training
